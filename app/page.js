@@ -14,12 +14,24 @@ export default function Home() {
         />
       </div>
       <h1 className="text-3xl text-center font-extralight my-8 px-2">
-        Gachaga Pius
+        Muthomi Gachaga
       </h1>
 
       <h2 className="font-bold text-4xl text-center">
         Hybrid Mobile App & Full Stack Web Developer
       </h2>
+      
+      <p className="text-md text-center p-12  font-mono">
+        I am a results-driven Hybrid Mobile App & Full Stack Web Developer with
+        a passion for creating dynamic and user-centric digital solutions.
+        Specializing in cross-platform mobile app development and full-stack web
+        technologies, I bring a versatile skill set that merges creativity with
+        technical expertise. With a keen eye for detail and a commitment to
+        staying at the forefront of industry trends, I thrive in transforming
+        concepts into high-performing applications. Collaborative by nature, I
+        am excited to contribute my skills to innovative projects that push the
+        boundaries of technology.
+      </p>
       <h1 className="my-8 px-2 font-extralight text-3xl">Tech Stack</h1>
       <div className="max-w-5xl w-full items-center justify-between font-mono text-md lg:flex md:flex-row ">
         <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
