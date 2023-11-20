@@ -21,7 +21,7 @@ export default function Home() {
         Hybrid Mobile App & Full Stack Web Developer
       </h2>
       
-      <p className="text-md text-center p-12  font-mono">
+      <p className="text-md text-center p-12 font-bold  font-mono">
         I am a results-driven Hybrid Mobile App & Full Stack Web Developer with
         a passion for creating dynamic and user-centric digital solutions.
         Specializing in cross-platform mobile app development and full-stack web
