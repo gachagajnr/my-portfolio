@@ -20,7 +20,7 @@ export default function Home() {
       <h2 className="font-bold text-4xl text-center">
         Hybrid Mobile App & Full Stack Web Developer
       </h2>
-      
+
       <p className="text-md text-center p-12 font-bold  font-mono">
         I am a results-driven Hybrid Mobile App & Full Stack Web Developer with
         a passion for creating dynamic and user-centric digital solutions.
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="flex-col p-2">
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="https://michoro-postgres.vercel.app/">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Michoro Art Website
               </h5>
@@ -117,10 +117,10 @@ export default function Home() {
               Overview
             </p>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              React Js Art Based Ecommerce Website
+              Node JS & React Js Art Based Ecommerce Website
             </p>
             <a
-              href="#"
+              href="https://michoro-postgres.vercel.app/"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Learn More
@@ -149,7 +149,7 @@ export default function Home() {
         </div>
         <div className="flex-col p-2">
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="https://www.mahalikenya.com">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Mahali Kenya Web App
               </h5>
@@ -161,7 +161,7 @@ export default function Home() {
               Node JS Landing Page & Web Server
             </p>
             <a
-              href="#"
+              href="https://www.mahalikenya.com"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read More
@@ -192,6 +192,7 @@ export default function Home() {
       <h1 className="my-8 px-2 font-extralight text-3xl">Contact Me </h1>
       <p>+254 706-335-880</p>
       <p>williampius17@gmail.com</p>
+      <p>https://www.linkedin.com/in/muthomi-gachaga-8b98a1121/</p>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
