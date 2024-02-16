@@ -231,8 +231,6 @@ export default function Home() {
           <h3 className="text-xs font-mono">Overview</h3>
           <p>Art Based Ecommerce Website</p> */}
         </div>
-      </div>
-      <div className=" max-w-5xl w-full items-center   justify-between lg:flex md:flex-row ">
         <div className="flex-col p-2">
           <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://michoro-postgres.vercel.app/">
@@ -275,6 +273,7 @@ export default function Home() {
           <p>Art Based Ecommerce Website</p> */}
         </div>
       </div>
+       
       <h1 className="my-8 px-2 font-extralight text-3xl">Contact Me </h1>
       <p>+254 706-335-880</p>
       <p>williampius17@gmail.com</p>
