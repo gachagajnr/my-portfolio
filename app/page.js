@@ -1,27 +1,46 @@
 import Image from "next/image";
 
+const stack = [
+  "Flutter",
+  "Feathers JS",
+  "Express JS",
+  "HTML",
+  "CSS",
+  "Android",
+  "React",
+  "Next JS",
+  "React Native",
+  "Tailwind CSS",
+  "MongoDB",
+  "PostgreSQL",
+  "MySQL",
+];
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-4">
-      <div className="py-4 my-4 h-auto w-auto">
-        <Image
-          src="/profile.jpg"
-          alt="Gachaga Pius"
-          className="rounded-full"
-          width={200}
-          height={35}
-          priority
-        />
+    <main className="flex min-h-screen flex-col items-center p-4 mx-4">
+      <div class="flex flex-row flex-wrap justify-center gap-4 items-center">
+        <div className="py-4 my-4 h-auto w-auto">
+          <Image
+            src="/profile.jpg"
+            alt="Gachaga Pius"
+            className="rounded-full"
+            width={200}
+            height={35}
+            priority
+          />
+        </div>
+        <div>
+          <h1 className="text-6xl font-bold text-center  py-8 px-2">
+            Gachaga Pius
+          </h1>
+        </div>
       </div>
-      <h1 className="text-3xl text-center font-extralight my-8 px-2">
-        Muthomi Gachaga
-      </h1>
 
       <h2 className="font-bold text-4xl text-center">
         Hybrid Mobile App & Full Stack Web Developer
       </h2>
 
-      <p className="text-md text-center p-12 font-bold  font-mono">
+      <p className="text-md text-center p-12  text-lg text-pretty">
         I am a results-driven Hybrid Mobile App & Full Stack Web Developer with
         a passion for creating dynamic and user-centric digital solutions.
         Specializing in cross-platform mobile app development and full-stack web
@@ -32,35 +51,15 @@ export default function Home() {
         am excited to contribute my skills to innovative projects that push the
         boundaries of technology.
       </p>
-      <h1 className="my-8 px-2 font-extralight text-3xl">Tech Stack</h1>
-      <div className="max-w-5xl w-full items-center justify-between font-mono text-md lg:flex md:flex-row ">
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          Flutter
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          Node JS
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          React JS
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          Next JS
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          React Native
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          Tailwind CSS
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          Laravel
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          MongoDB
-        </div>
-        <div className=" flex font-extrabold w-full p-4 items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          PostgreSQL
-        </div>
+      <h1 className="py-2 px-2 font-bold text-3xl">Tech Stack</h1>
+      <div className="menu menu-horizontal gap-2  justify-center">
+        {stack.map((item) => {
+          return (
+            <h2 key={item} className="btn btn-sm rounded-md">
+              {item}
+            </h2>
+          );
+        })}
       </div>
       <h1 className="my-8 px-2 font-extralight text-3xl">Projects </h1>
       <div className=" max-w-5xl w-full items-center   justify-between lg:flex md:flex-row ">
@@ -273,7 +272,7 @@ export default function Home() {
           <p>Art Based Ecommerce Website</p> */}
         </div>
       </div>
-       
+
       <h1 className="my-8 px-2 font-extralight text-3xl">Contact Me </h1>
       <p>+254 706-335-880</p>
       <p>williampius17@gmail.com</p>
