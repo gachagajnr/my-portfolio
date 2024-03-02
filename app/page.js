@@ -50,9 +50,9 @@ export default function Home() {
           commitment to staying at the forefront of industry trends, I thrive in
           transforming concepts into high-performing applications. Collaborative
           by nature, I am excited to contribute my skills to innovative projects
-          that push the boundaries of technology.
+          that push the boundaries of technology. I am 
         </p>
-        <h1 className="py-3 px-2 font-bold text-4xl">Tech Stack</h1>
+        {/* <h1 className="py-3 px-2 font-bold text-4xl">Tech Stack</h1> */}
         <div className="menu menu-horizontal gap-3 py-4  justify-center">
           {stack.map((item) => {
             return (
