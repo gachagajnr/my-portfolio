@@ -16,6 +16,15 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["corporate", "luxury", "business", "cyberpunk", "coffee","dim"],
+    themes: [
+      "corporate",
+      "luxury",
+      "business",
+      "cyberpunk",
+      "coffee",
+      "dim",
+      "lofi",
+      "retro"
+    ],
   },
 };
