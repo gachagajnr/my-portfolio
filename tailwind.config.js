@@ -24,7 +24,10 @@ module.exports = {
       "coffee",
       "dim",
       "lofi",
-      "retro"
+      "coffee",
+      "autumn",
+      "nord",
+      "winter",
     ],
   },
 };
