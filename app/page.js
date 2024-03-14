@@ -18,7 +18,10 @@ const stack = [
 export default function Home() {
   return (
     <main className=" max-w-screen-lg min-h-screen w-full   text-center justify-center items-center p-4 mx-4">
-      <div className="grid text-center w-fullbg-base-200">
+      <div className="  text-center w-full  ">
+        <h2 className="font-bold text-4xl py-8 text-center">
+          Welcome to My Portfolio
+        </h2>
         <div class="flex flex-row flex-wrap justify-center gap-4 items-center">
           <div className="py-4 my-4 h-auto w-auto">
             <Image
@@ -37,20 +40,10 @@ export default function Home() {
           </div>
         </div>
 
-        <h2 className="font-bold text-4xl py-4 text-center">
-          Mobile & Full Stack Web Developer
-        </h2>
-
         <p className="text-2xl text-center p-12   text-pretty">
-          I am a results-driven Hybrid Mobile App & Full Stack Web Developer
-          with a passion for creating dynamic and user-centric digital
-          solutions. Specializing in cross-platform mobile app development and
-          full-stack web technologies, I bring a versatile skill set that merges
-          creativity with technical expertise. With a keen eye for detail and a
-          commitment to staying at the forefront of industry trends, I thrive in
-          transforming concepts into high-performing applications. Collaborative
-          by nature, I am excited to contribute my skills to innovative projects
-          that push the boundaries of technology. I am
+          I am a Hybrid Mobile App & Full Stack Web Developer with a passion for
+          creating dynamic and user-centric digital solutions. Specializing in
+          cross-platform mobile app development and full-stack web technologies.
         </p>
         {/* <h1 className="py-3 px-2 font-bold text-4xl">Tech Stack</h1> */}
         <div className="menu menu-horizontal gap-3 py-4  justify-center">

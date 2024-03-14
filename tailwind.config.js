@@ -17,17 +17,7 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
-      "corporate",
-      "luxury",
-      "business",
-      "cyberpunk",
-      "coffee",
-      "dim",
-      "lofi",
-      "coffee",
-      "autumn",
-      "nord",
-      "winter",
+      // "winter",
     ],
   },
 };
