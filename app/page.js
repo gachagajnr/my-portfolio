@@ -23,20 +23,20 @@ export default function Home() {
           Welcome to My Portfolio
         </h2>
         <div class="flex flex-row flex-wrap justify-center gap-4 items-center">
+          <div>
+            <h1 className="text-6xl font-bold text-secondary text-center  py-8 px-2">
+               Pius Gachaga
+            </h1>
+          </div>
           <div className="py-4 my-4 h-auto w-auto">
             <Image
               src="/profile.jpg"
-              alt="Gachaga Pius"
-              className="rounded-full"
+              alt="Pius Gachaga"
+              className="rounded-2xl"
               width={200}
               height={35}
               priority
             />
-          </div>
-          <div>
-            <h1 className="text-6xl font-bold text-secondary text-center  py-8 px-2">
-              Gachaga Pius
-            </h1>
           </div>
         </div>
 
