@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
-              <h2 className="card-title">Mahali Kenya Landing Page</h2>
+              <h2 className="card-title">Mahali Kenya Website</h2>
               <p>Landing Page.</p>
               <div className="card-actions justify-end">
                 <Link
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
           <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
-              <h2 className="card-title"> Michoro Art Ecommerce</h2>
+              <h2 className="card-title"> Michoro Art</h2>
               <p>Ecommerce Website</p>
               <div className="card-actions justify-end">
                 <Link
