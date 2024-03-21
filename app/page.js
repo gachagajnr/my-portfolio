@@ -142,6 +142,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+           <div className="card w-80  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
+            <div className="card-body">
+              <h2 className="card-title">Nerves We Solutions</h2>
+              <p>Business Website for Nerves Web Solutions</p>
+              <div className="card-actions justify-end">
+                <Link
+                  href="https://nerve-webs.vercel.app/"
+                  className="btn btn-sm rounded-md btn-secondary"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
 
         <h1 className="my-8 px-2 font-bold text-4xl"></h1>
