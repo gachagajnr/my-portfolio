@@ -22,12 +22,7 @@ export default function Home() {
         <h2 className="font-bold text-4xl py-8 text-center">
           Welcome to My Portfolio
         </h2>
-        <div class="flex flex-row flex-wrap justify-center gap-4 items-center">
-          <div>
-            <h1 className="text-6xl font-bold text-secondary text-center  py-8 px-2">
-               Pius Gachaga
-            </h1>
-          </div>
+        <div class="flex flex-col flex-wrap justify-center gap-4 items-center">
           <div className="py-4 my-4 h-auto w-auto">
             <Image
               src="/profile.jpg"
@@ -37,6 +32,11 @@ export default function Home() {
               height={35}
               priority
             />
+          </div>
+          <div>
+            <h1 className="text-4xl font-bold text-secondary text-center  py-2 px-2">
+              Pius Gachaga
+            </h1>
           </div>
         </div>
 
@@ -142,9 +142,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-           <div className="card w-96  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
+          <div className="card w-96  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
             <div className="card-body">
-              <h2 className="card-title">Nerves We Solutions</h2>
+              <h2 className="card-title">Nerves Web Solutions</h2>
               <p>Business Website for Nerves Web Solutions</p>
               <div className="card-actions justify-end">
                 <Link
