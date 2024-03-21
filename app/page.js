@@ -61,7 +61,7 @@ export default function Home() {
         <h1 className="my-8 px-2 font-bold text-4xl">Projects </h1>
 
         <div className="flex flex-row flex-wrap  justify-center  gap-4 items-center">
-          <div className="card w-80 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
+          <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title">Mahali Kenya Mobile App</h2>
               <p>Flutter Cross Platform Mobile App.</p>
@@ -75,10 +75,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-80 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
+          <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title">Ookulima</h2>
-              <p> Next JS Blogs Web Application</p>
+              <p>Ukulima Blogs Web Application</p>
               <div className="card-actions justify-end">
                 <Link
                   href="https://ookulima.vercel.app/"
@@ -89,10 +89,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-80 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
+          <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title">Mahali Kenya Landing Page</h2>
-              <p>Backend API Server & Landing Page.</p>
+              <p>Landing Page.</p>
               <div className="card-actions justify-end">
                 <Link
                   href="https://www.mahalikenya.com"
@@ -103,10 +103,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-80 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
+          <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title"> Michoro Art Ecommerce</h2>
-              <p>Express & React Js Art Ecommerce Web Application</p>
+              <p>Ecommerce Web Application</p>
               <div className="card-actions justify-end">
                 <Link
                   href="https://michoro-postgres.vercel.app/"
@@ -117,10 +117,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-80 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
+          <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title"> Wirerent</h2>
-              <p>Node & React Js Rental Management System</p>
+              <p>Rental Management System</p>
               <div className="card-actions justify-end">
                 <Link href="" className="btn btn-sm rounded-md btn-secondary">
                   Details
@@ -128,7 +128,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-80  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
+          <div className="card w-96  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
             <div className="card-body">
               <h2 className="card-title">Rentaspace</h2>
               <p> Next JS Properties Listing Full Stack Web Application</p>
@@ -142,7 +142,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-           <div className="card w-80  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
+           <div className="card w-96  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
             <div className="card-body">
               <h2 className="card-title">Nerves We Solutions</h2>
               <p>Business Website for Nerves Web Solutions</p>
