@@ -106,7 +106,7 @@ export default function Home() {
           <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
             <div className="card-body">
               <h2 className="card-title"> Michoro Art Ecommerce</h2>
-              <p>Ecommerce Web Application</p>
+              <p>Ecommerce Website</p>
               <div className="card-actions justify-end">
                 <Link
                   href="https://michoro-postgres.vercel.app/"
@@ -131,7 +131,7 @@ export default function Home() {
           <div className="card w-96  bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl ">
             <div className="card-body">
               <h2 className="card-title">Rentaspace</h2>
-              <p> Next JS Properties Listing Full Stack Web Application</p>
+              <p>Properties Listing Web Application</p>
               <div className="card-actions justify-end">
                 <Link
                   href="https://luxury-rent.vercel.app/"
