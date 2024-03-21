@@ -95,7 +95,7 @@ export default function Home() {
               <p>Landing Page.</p>
               <div className="card-actions justify-end">
                 <Link
-                  href="https://www.mahalikenya.com"
+                  href="https://mahalikenya.vercel.app"
                   className="btn btn-sm rounded-md btn-secondary"
                 >
                   Details
