@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className=" max-w-screen-lg min-h-screen w-full   text-center justify-center items-center p-4 mx-4">
       <div className="  text-center w-full  ">
-        <h2 className="font-bold text-4xl py-8 text-center">
+        <h2 className="font-bold text-primary text-4xl py-8 text-center">
           Welcome to My Portfolio
         </h2>
         <div class="flex flex-col flex-wrap justify-center gap-4 items-center">
@@ -35,13 +35,13 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-4xl font-bold text-secondary text-center  py-2 px-2">
-              Pius Gachaga
+             I am Pius Gachaga
             </h1>
           </div>
         </div>
 
         <p className="text-2xl text-center p-12   text-pretty">
-          I am a Hybrid Mobile App & Full Stack Web Developer with a passion for
+          A Hybrid Mobile App & Full Stack Web Developer with a passion for
           creating dynamic and user-centric digital solutions. Specializing in
           cross-platform mobile app development and full-stack web technologies.
         </p>
@@ -58,7 +58,7 @@ export default function Home() {
             );
           })}
         </div>
-        <h1 className="my-8 px-2 font-bold text-4xl">Projects </h1>
+        <h1 className="my-8 px-2 font-bold text-4xl">Projects Completed </h1>
 
         <div className="flex flex-row flex-wrap  justify-center  gap-4 items-center">
           <div className="card w-96 bg-base-100 hover:-translate-y-2 duration-300 cursor-pointer shadow-xl glass">
